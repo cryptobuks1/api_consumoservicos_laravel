@@ -1308,3 +1308,14 @@ INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `creat
 
 
 _method => PUT
+
+Configuração Settings Banco de dados MySQL
+
+	mysql://b5759360ed2b58:c48494b5@us-cdbr-iron-east-05.cleardb.net/heroku_091a5656b0d38a3?reconnect=true
+
+	DB_CONNECTION=mysql
+	DB_HOST=us-cdbr-iron-east-05.cleardb.net
+	DB_PORT=3306
+	DB_DATABASE=heroku_091a5656b0d38a3
+	DB_USERNAME=b5759360ed2b58
+	DB_PASSWORD=c48494b5
